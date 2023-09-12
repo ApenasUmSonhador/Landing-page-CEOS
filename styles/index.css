@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #6ccad6 16.62%, #d4ce97 85.61%);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+header img {
+    height: 72px;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    gap: 32px;
+}
+
+header nav a {
+    font-family: 'Sarala', sans-serif;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    transition-duration: 0.4s;
+    color: rgba(0, 46, 250, 0.795);
+    cursor: pointer;
+}
