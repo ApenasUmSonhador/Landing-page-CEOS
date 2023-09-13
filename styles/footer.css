@@ -1,0 +1,10 @@
+footer {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+footer img {
+    height: 10vh;
+    display: block;
+    margin: 0 auto;
+}

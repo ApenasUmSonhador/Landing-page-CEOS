@@ -1,16 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-body {
-    font-size: 100%;
-    background: linear-gradient(68.15deg, #6ccad6 16.62%, #d4ce97 85.61%);
-}
-
 header {
     display: flex;
     flex-direction: row;
@@ -31,13 +18,13 @@ header nav {
 
 header nav a {
     font-family: 'Sarala', sans-serif;
-    color: #333;
+    color: #504ea5;
     font-weight: 400;
     font-size: 18px;
 }
 
 header nav a:hover {
     transition-duration: 0.4s;
-    color: rgba(0, 46, 250, 0.795);
+    color: rgba(212, 18, 18, 0.795);
     cursor: pointer;
 }
