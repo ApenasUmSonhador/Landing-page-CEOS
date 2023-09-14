@@ -28,23 +28,25 @@ Pasta onde ficarão armazenados os arquivos CSS referentes às páginas.
 Pasta onde ficarão armazenadas imagens, ícones, vídeos e demais arquivos de mídia.
 
 # Descrição de Commits
+
 <[tipo]>(<escopo>): <matéria>
+
 ## tipos:
-###[build]:
+### [build]:
 Mudanças relacionadas à construção do código.
-###[chore]:
+### [chore]:
 Mudanças que não têm efeito para o usuário final (exemplo: mudar uma indentação para deixar código mais legível)
-###[feat]:
+### [feat]:
 Adição de nova feature.
-###[fix]:
+### [fix]:
 Conserto de bug.
-[docs]:
+### [docs]:
 Mudanças relacionadas à documentação.
-###[refactor]:
+### [refactor]:
 Código que nem corrige bug nem adiciona nova feature.
-###[perf]:
-Código que melhora a performance
-###[style]:
-Código relacionado a mudança no estilo/design
-###test:
+### [perf]:
+Código que melhora a performance.
+### [style]:
+Código relacionado a mudança no estilo/design.
+### [test]:
 Adição de novo teste ou mudanças em testes já existentes
