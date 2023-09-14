@@ -95,13 +95,24 @@ main {
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     color: #504ea5;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
 }
 
+.perguntas-frequentes-row{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.perguntas-frequentes img{
+    height: 350px;
+    width: 350px;
+    margin-right: 10px;
+    border-radius: 5%;
+}
 .accordion{
-    width: 900px;
+    width: 780px;
     margin: 0 auto;
     background-color: #d3ac2e;
     border-radius: 5px;
