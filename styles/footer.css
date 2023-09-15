@@ -7,5 +7,20 @@ footer {
 footer img {
     height: 10vh;
     display: block;
-    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer div{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+footer div div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 2px;
 }
