@@ -22,14 +22,14 @@ main {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #0b3f7a;
+    color: #0053A4;
 }
 
 .principal h2 {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #776e05;
+    color: rgba(212, 18, 18, 0.795);
 }
 
 .principal button {
@@ -68,12 +68,12 @@ main {
 }
 
 .secundario h3 {
-    border-top: 0.4px solid #504ea5;
+    border-top: 0.4px solid #0053A4;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #504ea5;
+    color: #0053A4;
     margin-bottom: 16px;
 }
 
@@ -81,7 +81,7 @@ main {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #504ea5;
+    color: #0053A4;
 }
 
 /* Escudo, botão e objetivos - Fim */
@@ -100,7 +100,7 @@ aside {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #504ea5;
+    color: #0053A4;
     margin-bottom: 16px;
 }
 
