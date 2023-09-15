@@ -22,22 +22,22 @@ main {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #0b3f7a;
+    color: #0053A4;
 }
 
 .principal h2 {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #776e05;
+    color: #F21D2F;
 }
 
 .principal button {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #2F2325;
-    background-color: #ECD6C4;
+    color: white;
+    background-color: #504c4c;
     width: 180px;
     height: 60px;
     border: none;
@@ -68,12 +68,12 @@ main {
 }
 
 .secundario h3 {
-    border-top: 0.4px solid #504ea5;
+    border-top: 0.4px solid #0053A4;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #504ea5;
+    color: #0053A4;
     margin-bottom: 16px;
 }
 
@@ -81,7 +81,7 @@ main {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #504ea5;
+    color: #0053A4;
 }
 
 /* Escudo, botão e objetivos - Fim */
@@ -100,7 +100,7 @@ aside {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #504ea5;
+    color: #0053A4;
     margin-bottom: 16px;
 }
 
@@ -133,7 +133,7 @@ aside {
     justify-content: flex-start;
     width: 780px;
     margin: 0 auto;
-    background-color: #504c4c;
+    background-color: #555459;
     border-radius: 5px;
     overflow: hidden;
     padding: 5px;
