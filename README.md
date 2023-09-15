@@ -7,12 +7,15 @@
 1.3. Relatos de alunos (pós parcial)<br>
 2. Quem somos? - Responsável: Arthur<br>
 2.1. História do projeto <br>
-2.2. Professores <br>
+2.2. Professores (pós parcial)<br>
 **3. Perguntas frequentes [DONE]<br>**
 4. Fale conosco (pós parcial)<br>
 
 ## IDEIAS:
-Responsividade - responsável: Alberto <br>
+Cronograma das atividades
+Fotos dos professores - Responsável: Arthur<br>
+história dos professores - Responsável: Arthur<br>
+Responsividade - Responsável: Alberto <br>
 Redes sociais no footer - Responsáveis: Alberto e Luís<br>
 Tira dúvidas com integração e-mail mail:to <br>
 **Fazer área de perguntas frequentes [DONE]**<br>
