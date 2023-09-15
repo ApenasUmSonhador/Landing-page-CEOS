@@ -21,7 +21,7 @@ Reviews e comentários <br>
 
 ## Organização das Pastas
 ### Pages:
-Como o próprio nome supõe, é uma pasta onde ficarão armazenados os arquivos HTML do nosso conteúdo <strong>(exceto index.html)<\strong>.
+Como o próprio nome supõe, é uma pasta onde ficarão armazenados os arquivos HTML do nosso conteúdo <strong>(exceto index.html)</strong>.
 ### Styles:
 Pasta onde ficarão armazenados os arquivos CSS referentes às páginas.
 ### Assets:
@@ -29,7 +29,7 @@ Pasta onde ficarão armazenadas imagens, ícones, vídeos e demais arquivos de m
 
 # Descrição de Commits
 
-<[tipo]>(<escopo>): <matéria>
+<[tipo]><(escopo)>: <matéria>
 
 ## tipos:
 ### [build]:
@@ -49,4 +49,4 @@ Código que melhora a performance.
 ### [style]:
 Código relacionado a mudança no estilo/design.
 ### [test]:
-Adição de novo teste ou mudanças em testes já existentes
+Adição de novo teste ou mudanças em testes já existentes.
