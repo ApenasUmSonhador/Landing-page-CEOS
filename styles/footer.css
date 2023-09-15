@@ -20,8 +20,8 @@ footer img {
     display: flex;
     flex-flow: column wrap;
     align-items: normal;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
     padding: 2px;
 }
 
@@ -55,4 +55,14 @@ footer img {
     cursor: pointer;
     background-color: #9e98a7;
     border-radius: 8%;
+}
+
+.inicio-link:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.quem-somos:hover{
+    cursor: pointer;
+    color: blue;
 }
