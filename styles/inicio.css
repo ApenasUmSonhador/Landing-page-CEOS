@@ -3,6 +3,7 @@ main {
     margin-bottom: 48px;
 }
 
+/* Escudo, botão e objetivos - Início */
 .principal {
     display: flex;
     flex-direction: row;
@@ -21,14 +22,14 @@ main {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 64px;
-    color: #0b3f7a;
+    color: #0053A4;
 }
 
 .principal h2 {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #776e05;
+    color: rgba(212, 18, 18, 0.795);
 }
 
 .principal button {
@@ -67,12 +68,12 @@ main {
 }
 
 .secundario h3 {
-    border-top: 0.4px solid #504ea5;
+    border-top: 0.4px solid #0053A4;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 24px;
-    color: #504ea5;
+    color: #0053A4;
     margin-bottom: 16px;
 }
 
@@ -80,6 +81,127 @@ main {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #504ea5;
+    color: #0053A4;
 }
 
+/* Escudo, botão e objetivos - Fim */
+
+/* Perguntas frequentes - Início */
+aside {
+    margin-bottom: 80px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.perguntas-frequentes h3 {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #0053A4;
+    margin-bottom: 16px;
+}
+
+.perguntas-frequentes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.perguntas-frequentes-row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.perguntas-frequentes img {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    margin-right: 10px;
+    border-radius: 5%;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.accordion {
+    justify-content: flex-start;
+    width: 780px;
+    margin: 0 auto;
+    background-color: #504c4c;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.accordion-item {
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.accordion-item input {
+    display: none;
+}
+
+
+.accordion-content label {
+    font-family: 'Sarala', cursive;
+    display: block;
+    font-weight: 150;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid #c29626;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion-content label:hover {
+    background-color: #c29626;
+    border-radius: 5px;
+}
+
+.accordion-content label::after {
+    font-size: 25px;
+    content: "+";
+    float: right;
+    color: red;
+    transition: transform .3s ease;
+}
+
+.accordion-content p {
+    display: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.accordion-content div {
+    display: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    font-family: 'Sarala', sans-serif;
+}
+
+input:checked+.accordion-content p {
+    display: block;
+}
+
+input:checked+.accordion-content div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+input:checked+.accordion-content label::after {
+    transform: rotate(180deg) scale(1);
+    content: "-";
+}

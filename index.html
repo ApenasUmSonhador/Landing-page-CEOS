@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/inicio.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/perguntasfrequentes.css">
     <title>Tatame Universitário</title>
 </head>
 
@@ -18,14 +17,16 @@
         <!-- LOGO NO CANTO ESQUERDO <img src="assets/logo.svg" alt="Logo"> -->
         <img src="assets/Logo-tatame-sem-bg.png" alt="Logo">
         <nav class="desktop-nav">
-            <a href="index.html">Início</a>
-            <a href="#">Cronograma</a>
-            <a href="#">Inscrição</a>
-            <a href="#">Quem somos?</a>
-            <a href="#">Perguntas Frequentes</a>
+            <a id="pag-atual" href="index.html"">Início</a>
+            <a id="da-pag" href="#">Objetivos</a>
+            <a id="da-pag" href="#">Perguntas Frequentes</a>
+            <button id="pag-ext"><a href="#">Cronograma</a></button>
+            <button id="pag-ext"><a href="#">Quem somos?</a></button>
+            <button id="pag-ext"><a href="#">Inscrição</a></button>
         </nav>
         <div class="header-gradient"></div>
     </header>
+
     <main>
         <!-- Conteúdo principal da página -->
         <section class="principal">
@@ -48,17 +49,21 @@
             <p>3. Ofertar aulas de <strong>defesa pessoal</strong> e melhorias na <strong>aptidão física</strong> em
                 horários de permanência dos alunos na universidade.</p>
         </section>
-
-        <section class="perguntas-frequentes"> <!--Local das Perguntas Frequentes (Q&A)-->
+    </main>
+    <aside>
+        <!--Conteúdo de Perguntas Frequentes (Q&A)-->
+        <section class="perguntas-frequentes">
             <h3>Perguntas Frequentes</h3>
             <div class="perguntas-frequentes-row">
-                <img src="assets/img-Q&A.jpg" alt="Perguntas Frequentes">
+                <img src="assets/Q&A.jpg" alt="Perguntas Frequentes">
                 <div class="accordion">
                     <div class="accordion-item">
                         <input type="checkbox" id="p1">
                         <div class="accordion-content">
                             <label for="p1">Pergunta 1</label>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam, nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit ipsa optio provident quaerat atque laborum obcaecati?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam,
+                                nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit
+                                ipsa optio provident quaerat atque laborum obcaecati?</p>
                         </div>
                     </div>
 
@@ -66,7 +71,9 @@
                         <input type="checkbox" id="p2">
                         <div class="accordion-content">
                             <label for="p2">Pergunta 2</label>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam, nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit ipsa optio provident quaerat atque laborum obcaecati?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam,
+                                nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit
+                                ipsa optio provident quaerat atque laborum obcaecati?</p>
                         </div>
                     </div>
 
@@ -74,7 +81,9 @@
                         <input type="checkbox" id="p3">
                         <div class="accordion-content">
                             <label for="p3">Pergunta 3</label>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam, nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit ipsa optio provident quaerat atque laborum obcaecati?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam,
+                                nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit
+                                ipsa optio provident quaerat atque laborum obcaecati?</p>
                         </div>
                     </div>
 
@@ -82,9 +91,12 @@
                         <input type="checkbox" id="p4">
                         <div class="accordion-content">
                             <label for="p4">Pergunta 4</label>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam, nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit ipsa optio provident quaerat atque laborum obcaecati?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsum tempora aperiam,
+                                nobis et tempore temporibus. Quasi beatae facere, laboriosam maxime voluptatum, fugit
+                                ipsa optio provident quaerat atque laborum obcaecati?</p>
                         </div>
                     </div>
+
                     <div class="accordion-item">
                         <input type="checkbox" id="contato">
                         <div class="accordion-content">
@@ -92,17 +104,14 @@
                             <div>
                                 <p>Wpp</p>
                                 <p>Instagram</p>
-                                <p>Email</p>
+                                <p>E-mail</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        
         </section>
-    </main>
-
-    
+    </aside>
 
     <footer>
         <!-- Conteúdo do footer -->

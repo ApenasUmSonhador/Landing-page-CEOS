@@ -9,12 +9,12 @@
 
 body {
     font-size: 100%;
-    background: #d4ce97;
+    background: #CDCED2;
 }
 
 
 header {
-    background: #d4ce97;
+    background: #CDCED2;
     position: fixed;
     width: 100%;
     height: fit-content;
@@ -37,23 +37,43 @@ header nav {
 
 header nav a {
     font-family: 'Sarala', sans-serif;
-    color: #504ea5;
+    color: #0b3f7a;
     font-weight: 400;
     font-size: 18px;
 }
 
-header nav a:hover {
+header nav #da-pag:hover {
     transition-duration: 0.4s;
     color: rgba(212, 18, 18, 0.795);
     cursor: pointer;
 }
 
+header #pag-atual {
+    color: rgba(212, 18, 18, 0.795)
+}
+
+header #pag-ext a,button{
+    background-color: #CDCED2;
+    border: none;
+}
+
+header #pag-ext a{
+    box-shadow: 2px 2px 2px 2px rgba(212, 18, 18, 0.795);
+    border-radius: 20px;
+}
+header #pag-ext a:hover{
+    transition-duration: 0.4s;
+    background-color: #ECD6C4;
+    cursor: pointer;
+}
+
+header #pag-ext a{
+    padding: 5px;
+}
 .header-gradient {
     position: absolute;
     bottom: 0;
-    left: 0;
     width: 100%;
     height: 4px;
     background-image: linear-gradient(to bottom, #93c8f7b9, #4885bb);
-    z-index: -1;
 }
