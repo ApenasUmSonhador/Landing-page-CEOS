@@ -158,13 +158,13 @@ aside {
     font-weight: 150;
     font-size: 20px;
     color: white;
-    border-bottom: 1px solid #c29626;
+    border-bottom: 2px solid #352f3e;
     padding: 10px;
     cursor: pointer;
 }
 
 .accordion-content label:hover {
-    background-color: #c29626;
+    background-color: #3b313b;
     border-radius: 5px;
 }
 
