@@ -178,9 +178,9 @@ aside {
 
 .accordion-content p {
     opacity: 0;
-	height: 0;
-	font-size: 0;
-	transition: ease .5s;
+    height: 0;
+    font-size: 0;
+    transition: ease .5s;
     background-color: antiquewhite;
     padding: 10px;
     font-family: 'Sarala', sans-serif;
@@ -188,9 +188,9 @@ aside {
 
 .accordion-content div {
     opacity: 0;
-	height: 0;
-	font-size: 0;
-	transition: ease .5s;
+    height: 0;
+    font-size: 0;
+    transition: ease .5s;
     background-color: antiquewhite;
     padding: 10px;
     font-family: 'Sarala', sans-serif;
@@ -198,16 +198,16 @@ aside {
 
 input:checked+.accordion-content p {
     opacity: 1;
-	height: auto;
-	font-size: 14px;
-	padding: 10px 25px;
+    height: auto;
+    font-size: 14px;
+    padding: 10px 25px;
 }
 
 input:checked+.accordion-content div {
     opacity: 1;
-	height: auto;
-	font-size: 14px;
-	padding: 10px 25px;
+    height: auto;
+    font-size: 14px;
+    padding: 10px 25px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -218,3 +218,5 @@ input:checked+.accordion-content label::after {
     transform: rotate(180deg) scale(1);
     content: "-";
 }
+
+/* Perguntas frequentes - Fim */
