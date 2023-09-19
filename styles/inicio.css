@@ -222,7 +222,7 @@ input:checked+.accordion-content label::after {
 /* Perguntas frequentes - Fim */
 
 /*Responsividade - Ini*/
-@media  screen and (max-width: 450px){
+@media  screen and (max-width: 800px){
     .principal {
         display: flex;
         flex-direction: column-reverse;
