@@ -12,12 +12,13 @@ footer img {
     margin-top: 10px;
 }
 
-.footer-lin{
+.footer-lin {
     display: flex;
     flex-flow: row nowrap;
     align-items: normal;
 }
-.footer-col{
+
+.footer-col {
     display: flex;
     flex-flow: column wrap;
     align-items: normal;
@@ -26,49 +27,48 @@ footer img {
     padding: 2px;
 }
 
-.footer-col h3{
+.footer-col h3 {
     font-size: 28px;
     font-family: 'Sarala', sans-serif;
     color: #0053A4;
-    text-wrap: nowrap;
 }
 
-.footer-col a{
-    text-wrap: nowrap;
+.footer-col a {
     font-family: 'Sarala', sans-serif;
     font-size: 15px;
     margin: 2%;
     color: black;
 }
 
-.contatos-link:hover{
+.contatos-link:hover {
     cursor: pointer;
     color: blue;
 }
 
-.redes-sociais{
+.redes-sociais {
     height: 45px;
     width: 45px;
     margin: 3%;
 }
-.redes-sociais:hover{
+
+.redes-sociais:hover {
     cursor: pointer;
     background-color: #9e98a7;
     border-radius: 8%;
 }
 
-.inicio-link:hover{
+.inicio-link:hover {
     cursor: pointer;
     color: blue;
 }
 
-.quem-somos:hover{
+.quem-somos:hover {
     cursor: pointer;
     color: blue;
 }
 
 @media screen and (max-width: 800px) {
-    footer{
+    footer {
         display: none;
     }
 }
