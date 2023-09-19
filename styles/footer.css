@@ -66,6 +66,10 @@ footer img {
     cursor: pointer;
     color: blue;
 }
+.cronograma:hover {
+    cursor: pointer;
+    color: blue;
+}
 
 @media screen and (max-width: 800px) {
     footer {
