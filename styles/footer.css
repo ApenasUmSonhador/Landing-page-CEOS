@@ -66,3 +66,9 @@ footer img {
     cursor: pointer;
     color: blue;
 }
+
+@media screen and (max-width: 450px) {
+    footer{
+        display: none;
+    }
+}

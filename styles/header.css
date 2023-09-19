@@ -84,3 +84,9 @@ header a {
     height: 4px;
     background-image: linear-gradient(to bottom, #93c8f7b9, #4885bb);
 }
+
+@media screen and (max-width: 450px) {
+    header{
+        display: none;
+    }
+}

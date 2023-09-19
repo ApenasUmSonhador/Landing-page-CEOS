@@ -220,3 +220,77 @@ input:checked+.accordion-content label::after {
 }
 
 /* Perguntas frequentes - Fim */
+
+/*Responsividade - Ini*/
+@media  screen and (max-width: 450px){
+    .principal {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .principal div {
+        padding: 5%;
+        align-items: center;
+    }
+    
+    .principal h1 {
+        display: none;
+    }
+    
+    .principal h2 {
+        font-family: 'Sarala', sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        color: rgba(212, 18, 18, 0.795);
+    }
+    
+    .principal button {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    
+    .principal a {
+        width: fit-content;
+    }
+    
+    .principal button:hover {
+        transition-duration: 0.4s;
+        background-color: rgba(212, 18, 18, 0.795);
+        cursor: pointer;
+    }
+    
+    .principal img {
+        width: 80%;
+        height: auto;
+        content: url("../assets/Logo-tatame-sem-bg.png");
+        
+    }
+
+    .secundario h3 {
+        border-top: 0.4px solid #0053A4;
+        padding-top: 48px;
+        margin-top: 36px;
+        font-family: 'Righteous', cursive;
+        font-weight: 200;
+        font-size: 20px;
+        color: #0053A4;
+        margin-bottom: 8px;
+    }
+    
+    .secundario p {
+        padding-left: 15%;
+        padding-right: 15%;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 300;
+        font-size: 10px;
+        color: #0053A4;
+    }
+
+    aside{
+        display: none;
+    }
+}
