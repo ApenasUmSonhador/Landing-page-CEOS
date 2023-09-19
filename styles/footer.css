@@ -67,7 +67,7 @@ footer img {
     color: blue;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
     footer{
         display: none;
     }

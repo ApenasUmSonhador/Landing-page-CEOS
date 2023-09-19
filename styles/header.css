@@ -85,7 +85,7 @@ header a {
     background-image: linear-gradient(to bottom, #93c8f7b9, #4885bb);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
     header{
         display: none;
     }
