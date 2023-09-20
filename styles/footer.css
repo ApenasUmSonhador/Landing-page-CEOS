@@ -71,8 +71,23 @@ footer img {
     color: blue;
 }
 
+/*responsividade celular - ini*/
 @media screen and (max-width: 800px) {
-    footer {
-        display: none;
+    footer img {
+        height: auto;
+        width: 90%;
+        padding-bottom: 10%;
+    }
+    .footer-lin {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: normal;
+        width: 98%;
+        height: auto;
+    }
+    .align-responsive {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: normal;
     }
 }
