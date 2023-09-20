@@ -34,6 +34,10 @@ header img {
     height: 72px;
 }
 
+header .mobile-nav {
+    display: none;
+}
+
 header .desktop-nav {
     display: flex;
     gap: 32px;

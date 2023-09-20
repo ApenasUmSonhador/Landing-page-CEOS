@@ -240,5 +240,14 @@ aside h2 {
 }
 
 @media screen and (max-width: 500) {
-     
+    h1 {
+        text-align: center;
+        font-size: 64px;
+        font-weight: 100;
+        font-family: 'Righteous', cursive;
+        margin-top: 20px;
+        margin-left: 5%;
+        color: #0053A4;
+    }
+    
 }
