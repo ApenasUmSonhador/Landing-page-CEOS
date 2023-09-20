@@ -195,6 +195,13 @@ aside {
     padding: 10px;
     font-family: 'Sarala', sans-serif;
 }
+.accordion-content .localização {
+    display: none;
+    opacity: 0;
+    transition: ease .5s;
+    background-color: antiquewhite;
+    padding: 10px;
+}
 
 input:checked+.accordion-content p {
     opacity: 1;
@@ -212,6 +219,14 @@ input:checked+.accordion-content div {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
+}
+
+input:checked+.accordion-content .localização{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 25px;
 }
 
 input:checked+.accordion-content label::after {
