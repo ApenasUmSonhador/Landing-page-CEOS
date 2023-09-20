@@ -127,9 +127,7 @@ aside {
     font-weight: 500;
     color: #3f4347;
     font-size: 10px;
-    margin-top: 5%;
-    margin-right: 3%;
-    margin-bottom: 5%;
+    gap: 3%;
     font-family: 'Sarala', sans-serif;
 }
 
