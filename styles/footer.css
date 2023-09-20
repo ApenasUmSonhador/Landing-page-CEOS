@@ -51,6 +51,12 @@ footer img {
     margin: 3%;
 }
 
+.align-responsive {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: normal;
+}
+
 .redes-sociais:hover {
     cursor: pointer;
     background-color: #9e98a7;
@@ -85,9 +91,7 @@ footer img {
         width: 98%;
         height: auto;
     }
-    .align-responsive {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: normal;
+    .redes-sociais {
+        height: auto;
     }
 }
