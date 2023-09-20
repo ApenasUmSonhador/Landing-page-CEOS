@@ -3,6 +3,16 @@ main {
     margin-bottom: 120px;
 }
 
+h1 {
+    text-align: normal;
+    font-size: 64px;
+    font-weight: 100;
+    font-family: 'Righteous', cursive;
+    margin-top: 20px;
+    margin-left: 5%;
+    color: #0053A4;
+}
+
 .sobrenos {
     display: flex;
     flex-flow: column wrap;
@@ -19,15 +29,7 @@ main {
     max-width: 100%;
 }
 
-.sobrenos h1 {
-    text-align: normal;
-    font-size: 64px;
-    font-weight: 100;
-    font-family: 'Righteous', cursive;
-    margin-top: 20px;
-    margin-left: 5%;
-    color: #0053A4;
-}
+
 
 .sobrenos p {
     padding-left: 50px;
@@ -36,24 +38,13 @@ main {
     padding-bottom: 20px;
 }
 
-.h1style {
-    text-align: normal;
-    font-size: 64px;
-    font-weight: 100;
-    font-family: 'Righteous', cursive;
-    margin-top: 20px;
-    margin-left: 5%;
-    color: #0053A4;
-    margin-bottom: 50px;
-}
-
 aside {
-    margin-bottom: 250px;
+    margin-bottom: 100px;
     flex-direction: column;
     align-items: center;
 }
 
-.h3style {
+aside h2 {
     padding-top: 48px;
     display: flex;
     justify-content: center;
@@ -241,7 +232,7 @@ aside {
 }
 
 .dias-semanas span a:hover {
-    color: red;
+    color: rgba(212, 18, 18, 0.795);
 }
 
 .dias-semanas span p {
