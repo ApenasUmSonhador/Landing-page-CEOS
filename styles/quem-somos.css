@@ -10,9 +10,13 @@ main {
     justify-content: space-around;
 }
 
-.sobrenos img {
+.sobrenos div {
+    padding-top: 20px;
+    flex-direction: row;
+}
+
+.sobrenos div img {
     max-width: 100%;
-    max-height: 700px;
 }
 
 .sobrenos h1 {
