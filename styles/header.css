@@ -34,19 +34,19 @@ header img {
     height: 72px;
 }
 
-header nav {
+header .desktop-nav {
     display: flex;
     gap: 32px;
 }
 
-header nav a {
+header .desktop-nav a {
     font-family: 'Sarala', sans-serif;
     color: #0b3f7a;
     font-weight: 400;
     font-size: 18px;
 }
 
-header nav #da-pag:hover {
+header .desktop-nav #da-pag:hover {
     transition-duration: 0.4s;
     color: rgba(212, 18, 18, 0.795);
     cursor: pointer;
@@ -86,7 +86,70 @@ header a {
 }
 
 @media screen and (max-width: 800px) {
-    header{
+   
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top:0;
+        flex-wrap: nowrap;
+    }
+
+    header img {
+        content: url("../assets/escudo-tatame-sem-bg.png");
+        width: auto;
+        height: 70px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    header .desktop-nav {
         display: none;
     }
+
+    header .mobile-nav{
+        border-top: 1px solid #0053A4;
+        display: none;
+        padding-top: 5%;
+        flex-flow: column nowrap;
+        padding: 10px;
+        gap: 30px;
+        align-items: center;
+        background-color: #babbbe;
+        width: 100%;
+    }
+    
+    header .mobile-nav a {
+        font-family: 'Sarala', sans-serif;
+        color: #0b3f7a;
+        font-size: 20px;
+    }
+
+    header #pag-ext a,
+    button {
+        background: none;
+        border: none;
+    }
+
+    header #pag-ext a:hover {
+        transition-duration: 0.15s;
+        background:none;
+        color: rgba(212, 18, 18, 0.795);
+        cursor: pointer;
+    }
+
+    header #pag-atual {
+        background: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    header .mobile-nav a :hover{
+        transition-duration: 0.15s;
+        background:none;
+        background-color: rgba(212, 18, 18, 0.795);
+        cursor: pointer;
+    }
+    
+    
 }

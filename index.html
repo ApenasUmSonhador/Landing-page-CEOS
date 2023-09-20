@@ -14,7 +14,7 @@
 <body>
     <header>
         <!-- Conteúdo header da página -->
-        <img src="assets/Logo-tatame-sem-bg.png" alt="Logo">
+        <img src="assets/Logo-tatame-sem-bg.png" alt="Logo" onclick="clickmenu()">
         <nav class="desktop-nav">
             <a id="pag-atual" href="#">Início</a>
             <a id=" da-pag" href="#objetivos">Objetivos</a>
@@ -24,7 +24,26 @@
             <button id="pag-ext"><a target="_blank"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSdCWKbHeNIexf_rbeQiorymOkEVKkBfiGT2f3lfmMhySoOO8A/viewform?fbclid=PAAaYsER45AsncMpW3Ovf5P_M56D62vNrX37dIJF8iXRpRjEaY-PZlfBBN4hs">Inscrição</a></button>
         </nav>
+        <nav class="mobile-nav" id="mobNav">
+            <a id="pag-atual" href="#">Início</a>
+            <a id=" da-pag" href="#objetivos">Objetivos</a>
+            <a id="da-pag" href="#Q&A">Perguntas Frequentes</a>
+            <button id="pag-ext"><a href="pages/cronograma.html">Cronograma</a></button>
+            <button id="pag-ext"><a href="pages/quem-somos.html">Quem somos?</a></button>
+            <button id="pag-ext"><a target="_blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdCWKbHeNIexf_rbeQiorymOkEVKkBfiGT2f3lfmMhySoOO8A/viewform?fbclid=PAAaYsER45AsncMpW3Ovf5P_M56D62vNrX37dIJF8iXRpRjEaY-PZlfBBN4hs">Inscrição</a></button>
+        </nav>
         <div class="header-gradient"></div>
+        <script>
+            function clickmenu(){
+                if(mobNav.style.display == "flex")
+                {
+                    mobNav.style.display = "none";
+                }else{
+                    mobNav.style.display = "flex";
+                }
+            }
+        </script>
     </header>
     <a name="inicio"></a>
     <main>
