@@ -27,6 +27,7 @@ h1 {
 
 .sobrenos div img {
     max-width: 100%;
+    padding-top: 13px;
 }
 
 
@@ -138,6 +139,10 @@ aside h2 {
     transition: 0.2s;
 }
 
+.saibamais-mobile{
+    display: none;
+}
+
 .saibamais a {
     color: currentColor;
     text-decoration: none;
@@ -155,7 +160,7 @@ aside h2 {
 .modalidades {
     display: flex;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items: normal;
     justify-content: center;
     padding: 50px;
 }
@@ -172,7 +177,7 @@ aside h2 {
     display: flex;
     flex-flow: column nowrap;
     align-items: normal;
-    max-width: 60%;
+    max-width: 90%;
     height: 500px;
     margin: 0 auto;
     background-color: #e3dfeb;
@@ -216,7 +221,7 @@ aside h2 {
     margin: 20px;
     overflow: hidden;
     padding: 10px;
-    box-shadow: 1.8px 3px 3px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.5);
 }
 
 .dias-semanas span b {
@@ -239,15 +244,198 @@ aside h2 {
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 500) {
+.desc-hora{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+@media screen and (max-width: 500px) { 
     h1 {
         text-align: center;
-        font-size: 64px;
-        font-weight: 100;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    
+    .sobrenos {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sobrenos div {
+        padding-bottom: 15px;
+        flex-direction: column;
+    }
+    
+    .sobrenos div img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 2%;
+    }
+
+    .sobrenos p {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    aside h2 {
+        font-weight: 200;
+        font-size: 25px;
+    }
+    
+    .professores {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cards {
+        margin-left: 20px;
+        margin-right: 20px;
+        max-height: 350px;
+        max-width: 250px;
+    }
+
+    .cards img {
+        height: 150px;
+        justify-content: center;
+        object-fit: contain;
+        padding: 3%;
+        background-color: rgb(234, 231, 231);
+    }    
+    
+    .cards .cards-content {
+        align-self: center;
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        height: 100px;
+        margin-top: 25px;
+    }
+    
+    .cards-content h4 {
         font-family: 'Righteous', cursive;
-        margin-top: 20px;
-        margin-left: 5%;
+        display: block;
+        font-weight: 50;
+        font-size: 20px;
+        color: rgb(19, 19, 19);
+        border-bottom: 2px solid #352f3e;
+        margin-bottom: 10%;
+    }
+    
+    .cards-content div {
+        display: flex;
+        align-items: normal;
+        flex-flow: row nowrap;
+    }
+    
+    .cards-content span {
+        padding: 4px 8px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    
+    .saibamais {
+        display: none;
+    }
+    
+    .cards:hover {
+        box-shadow: 0 15px 20px 0 rgba(34, 34, 34, 0.9);
+    }
+      
+    .modalidades {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0%;
+        max-width: 100%;
+    }
+    
+    .modalidades img {
+        width: 100%;
+        height: auto;
+        border-radius: 0%;
+        margin-right: 0;
+        margin-bottom: 3%;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    }
+    
+    .desc-modalidade {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: normal;
+        max-width: 100%;
+        height: auto;
+        margin: 0px;
+        background-color: #e3dfeb;
+        border-radius: 0%;
+        overflow: hidden;
+        padding: 5px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+        padding-bottom: 5%;
+    }
+    
+    .desc-modalidade h3 {
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 32px;
+        font-weight: 200;
         color: #0053A4;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 200;
+    }
+    
+    .desc-modalidade .desc {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    .dias-semanas {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .dias-semanas span {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        background-color: #d7d2e1;
+        border-radius: 5px;
+        margin: 10px;
+        overflow: hidden;
+        padding: 10px;
+        box-shadow: 1.8px 3px 3px 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    .dias-semanas span b {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #56585a;
+    }
+    
+    .dias-semanas span a {
+        display: block;
+        color: #65696e;
+        margin-bottom: 5px;
+    }
+    
+    .dias-semanas span a:hover {
+        color: rgba(212, 18, 18, 0.795);
+    }
+    
+    .dias-semanas span p {
+        margin-bottom: 5px;
     }
     
 }
