@@ -214,6 +214,10 @@ aside h2 {
 }
 
 @media screen and (max-width: 500px) { 
+    body{
+        align-items: center;
+    }
+
     h1 {
         text-align: center;
         font-size: 50px;
@@ -363,34 +367,10 @@ aside h2 {
     }
     
     .dias-semanas {
-        display: flex;
-        flex-flow: row nowrap;
+        display: none;
+        flex-flow: row wrap;
         align-items: center;
         justify-content: center;
-    }
-    
-    .dias-semanas span {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        background-color: #d7d2e1;
-        border-radius: 5px;
-        margin: 10px;
-        overflow: hidden;
-        padding: 10px;
-        box-shadow: 1.8px 3px 3px 0 rgba(0, 0, 0, 0.5);
-    }
-    
-    .dias-semanas span b {
-        font-size: 20px;
-        margin-bottom: 10px;
-        color: #56585a;
-    }
-    
-    .dias-semanas span p {
-        margin-bottom: 10px;
-        color:#65696e;
-        text-wrap: nowrap;
     }
     
 }
