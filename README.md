@@ -1,25 +1,25 @@
 # Landing page para o Tatame Universitário
 
 ## Mapa
-1. Início<br>
+1. **Início[DONE]**<br>
 **1.1. Botão para formulário de inscrições[DONE]**<br>
 **1.2. Objetivos [DONE]<br>**
-1.3. Relatos de alunos (pós parcial)<br>
-2. Quem somos? - Responsável [ONGOING]<br>
+**1.3. Perguntas frequentes [DONE]<br>**
+1.4. Relatos de alunos (pós parcial)<br>
+2. Quem somos? [ONGOING]<br>
 2.1. História do projeto [ONGOING]<br>
-2.2. Professores [ONGOING]<br>
-**3. Perguntas frequentes [DONE]<br>**
+**2.2. Professores [DONE]**<br>
 4. Fale conosco (pós parcial)<br>
 
-## IDEIAS:
-**Cronograma das atividades [DONE]**
-**Fotos dos professores [DONE]**<br> <!--retirei a parte da história dos professores-->
-Responsividade [OGOING] <br>
-**Redes sociais no footer [DONE]**<br>
-Tira dúvidas com integração e-mail mail:to <br>
-**Fazer área de perguntas frequentes [DONE]**<br>
-**Google street view [DONE]** <br>
-Reviews e comentários <br>
+## PLANOS:
+- **Cronograma das atividades [DONE]**
+- **Fotos dos professores [DONE]**<br> <!--retirei a parte da história dos professores-->
+- Responsividade [OGOING] <br>
+- **Redes sociais no footer [DONE]**<br>
+- Tira dúvidas com integração e-mail mail:to <br>
+- **Fazer área de perguntas frequentes [DONE]**<br>
+- **Google street view [DONE]** <br>
+- Reviews e comentários <br>
 
 
 ## Organização das Pastas
