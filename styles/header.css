@@ -57,17 +57,15 @@ header .desktop-nav #da-pag:hover {
 }
 
 header #pag-atual {
-    background-color: #F2E30F;
     cursor: pointer;
-    border-radius: 20px;
-
+    color: red;
 }
 
 header #pag-ext a,
 button {
     background-color: #e6e8ed;
-    border-color: #F2E30F;
     border-radius: 20px;
+    border-color: #F2E30F;
 }
 
 header #pag-ext a:hover {
