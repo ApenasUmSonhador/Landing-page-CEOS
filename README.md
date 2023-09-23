@@ -11,14 +11,14 @@
 
 ## PLANOS:
 - **Cronograma das atividades [DONE]**
-- **Fotos dos professores [DONE]**<br> <!--retirei a parte da história dos professores-->
+- **Fotos dos professores [DONE]**<br>
 - **Responsividade [DONE]** <br>
 - **Redes sociais no footer [DONE]**<br>
 - **Fazer área de perguntas frequentes [DONE]**<br>
 - **Google street view [DONE]** <br>
 
 ## Divisão das tarefas:
-- Arthur (Idealizador da página, Inicío, Quem Somos, Design do Site, Estruturação do Site e do HTML)
+- Arthur (Idealizador da página, Inicío, Quem Somos, Design do Site, Header)
 - Luis (Footer, Header/Nav, GPS, Perguntas Frequentes)
 - Alberto (Footer, Responsividade, Quem Somos, Perguntas Frequentes)
 
