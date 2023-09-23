@@ -5,22 +5,22 @@
 **1.1. Botão para formulário de inscrições[DONE]**<br>
 **1.2. Objetivos [DONE]<br>**
 **1.3. Perguntas frequentes [DONE]<br>**
-1.4. Relatos de alunos (pós parcial)<br>
-2. Quem somos? [ONGOING]<br>
-2.1. História do projeto [ONGOING]<br>
+**2. Quem somos?** [DONE]<br>
+**2.1. História do projeto [DONE]**<br>
 **2.2. Professores [DONE]**<br>
-4. Fale conosco (pós parcial)<br>
 
 ## PLANOS:
 - **Cronograma das atividades [DONE]**
 - **Fotos dos professores [DONE]**<br> <!--retirei a parte da história dos professores-->
-- Responsividade [OGOING] <br>
+- **Responsividade [DONE]** <br>
 - **Redes sociais no footer [DONE]**<br>
-- Tira dúvidas com integração e-mail mail:to <br>
 - **Fazer área de perguntas frequentes [DONE]**<br>
 - **Google street view [DONE]** <br>
-- Reviews e comentários <br>
 
+## Divisão das tarefas:
+- Arthur (Idealizador da página, Inicío, Quem Somos, Design do Site, Estruturação do Site e do HTML)
+- Luis (Footer, Header/Nav, GPS, Perguntas Frequentes)
+- Alberto (Footer, Responsividade, Quem Somos, Perguntas Frequentes)
 
 ## Organização das Pastas
 ### Pages:
