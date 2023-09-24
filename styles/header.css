@@ -13,12 +13,12 @@ html {
 
 body {
     font-size: 100%;
-    background: #CDCED2;
+    background: #f4f4f7;
 }
 
 
 header {
-    background: #CDCED2;
+    background: #e6e8ed;
     position: fixed;
     width: 100%;
     height: fit-content;
@@ -61,17 +61,15 @@ header .desktop-nav #da-pag:hover {
 }
 
 header #pag-atual {
-    background-color: #F2E30F;
     cursor: pointer;
-    border-radius: 20px;
-
+    color: red;
 }
 
 header #pag-ext a,
 button {
-    background-color: #CDCED2;
-    border-color: #F2E30F;
+    background-color: #e6e8ed;
     border-radius: 20px;
+    border-color: #F2E30F;
 }
 
 header #pag-ext a:hover {

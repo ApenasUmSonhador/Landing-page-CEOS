@@ -30,13 +30,13 @@ h1 {
     padding-top: 13px;
 }
 
-
-
 .sobrenos p {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 200%;
 }
 
 aside {
@@ -75,7 +75,7 @@ aside h2 {
     margin-bottom: 3%;
     padding: 2%;
     background-color: rgb(234, 231, 231);
-    max-height: 450px;
+    max-height: 400px;
     max-width: 250px;
 }
 
@@ -103,6 +103,7 @@ aside h2 {
     color: rgb(19, 19, 19);
     border-bottom: 2px solid #352f3e;
     margin-bottom: 6%;
+    text-wrap: nowrap;
 }
 
 .cards-content div {
@@ -118,43 +119,15 @@ aside h2 {
     border-radius: 50px;
     font-weight: 500;
     color: #3f4347;
-    font-size: 10px;
+    font-size: 16px;
+    margin: 10px;
     gap: 3%;
     font-family: 'Sarala', sans-serif;
-}
-
-
-.saibamais {
-    cursor: pointer;
-    border-color: #3f4347;
-    margin-top: 8%;
-    margin-bottom: 3%;
-    padding: 5px;
-    border-radius: 30px;
-    font-weight: 200;
-    font-size: 15px;
-    color: #1e1c1c;
-    font-family: 'Sarala', sans-serif;
-    background-color: #86898d;
-    transition: 0.2s;
-}
-
-.saibamais-mobile{
-    display: none;
-}
-
-.saibamais a {
-    color: currentColor;
-    text-decoration: none;
-    font-family: 'Sarala', sans-serif;
+    text-wrap: nowrap;
 }
 
 .cards:hover {
     box-shadow: 0 15px 20px 0 rgba(34, 34, 34, 0.9);
-}
-
-.saibamais:hover {
-    background-color: rgba(212, 18, 18, 0.795);
 }
 
 .modalidades {
@@ -212,11 +185,15 @@ aside h2 {
     justify-content: center;
 }
 
+.dias-semanas .dias-semanas-mob{
+    display: none;
+}
+
 .dias-semanas span {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    background-color: #d7d2e1;
+    background-color: #e3dfeb;
     border-radius: 5px;
     margin: 20px;
     overflow: hidden;
@@ -230,18 +207,9 @@ aside h2 {
     color: #56585a;
 }
 
-.dias-semanas span a {
-    display: block;
-    color: #65696e;
-    margin-bottom: 5px;
-}
-
-.dias-semanas span a:hover {
-    color: rgba(212, 18, 18, 0.795);
-}
-
 .dias-semanas span p {
     margin-bottom: 5px;
+    color: #65696e;
 }
 
 .desc-hora{
@@ -250,13 +218,17 @@ aside h2 {
 }
 
 @media screen and (max-width: 500px) { 
+    body{
+        align-items: center;
+    }
+
     h1 {
         text-align: center;
         font-size: 50px;
         margin-top: 10px;
         margin-left: 0;
     }
-    
+
     .sobrenos {
         display: flex;
         flex-flow: column wrap;
@@ -271,7 +243,7 @@ aside h2 {
     
     .sobrenos div img {
         max-width: 100%;
-        height: auto;
+        max-height: auto;
         padding-top: 2%;
     }
 
@@ -280,6 +252,7 @@ aside h2 {
         padding-right: 25px;
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 18px;
     }
     
     aside h2 {
@@ -297,8 +270,8 @@ aside h2 {
     .cards {
         margin-left: 20px;
         margin-right: 20px;
-        max-height: 350px;
-        max-width: 250px;
+        max-height: 270px;
+        max-width: 300px;
     }
 
     .cards img {
@@ -335,15 +308,12 @@ aside h2 {
     }
     
     .cards-content span {
-        padding: 4px 8px;
+        padding: 2px 4px;
         font-weight: 300;
         font-size: 15px;
+        margin: 3px;
     }
-    
-    .saibamais {
-        display: none;
-    }
-    
+
     .cards:hover {
         box-shadow: 0 15px 20px 0 rgba(34, 34, 34, 0.9);
     }
@@ -354,7 +324,8 @@ aside h2 {
         align-items: center;
         justify-content: center;
         padding: 0%;
-        max-width: 100%;
+        margin: 10px;
+        max-width: 500px;
     }
     
     .modalidades img {
@@ -369,7 +340,7 @@ aside h2 {
     .desc-modalidade {
         display: flex;
         flex-flow: column nowrap;
-        align-items: normal;
+        align-items: center;
         max-width: 100%;
         height: auto;
         margin: 0px;
@@ -401,41 +372,29 @@ aside h2 {
     
     .dias-semanas {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         align-items: center;
         justify-content: center;
+    }
+
+    .dias-semanas .dias-semanas-pc{
+        display: none;
+    }
+
+    .dias-semanas .dias-semanas-mob{
+        display: flex;
+        flex-flow: row nowrap;
     }
     
     .dias-semanas span {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
-        background-color: #d7d2e1;
+        background-color: #e3dfeb;
         border-radius: 5px;
-        margin: 10px;
+        margin: 20px;
         overflow: hidden;
         padding: 10px;
-        box-shadow: 1.8px 3px 3px 0 rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
     }
-    
-    .dias-semanas span b {
-        font-size: 20px;
-        margin-bottom: 10px;
-        color: #56585a;
-    }
-    
-    .dias-semanas span a {
-        display: block;
-        color: #65696e;
-        margin-bottom: 5px;
-    }
-    
-    .dias-semanas span a:hover {
-        color: rgba(212, 18, 18, 0.795);
-    }
-    
-    .dias-semanas span p {
-        margin-bottom: 5px;
-    }
-    
 }
