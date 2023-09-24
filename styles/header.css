@@ -30,8 +30,12 @@ header {
     flex-wrap: wrap;
 }
 
-header img {
+header img{
     height: 72px;
+}
+
+.img-mob{
+    display: none;
 }
 
 header .mobile-nav {
@@ -99,12 +103,18 @@ header a {
         flex-wrap: nowrap;
     }
 
-    header img {
-        content: url("../assets/escudo-tatame-sem-bg.png");
+    header img{
         width: auto;
         height: 70px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    .img-mob{
+        display: block;
+    }
+
+    .img-desk{
+        display: none;    
     }
 
     header .desktop-nav {
