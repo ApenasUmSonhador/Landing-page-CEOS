@@ -185,7 +185,7 @@ aside h2 {
     justify-content: center;
 }
 
-.dias-semanas .dias-semanas-mob{
+.dias-semanas .dias-semanas-mob {
     display: none;
 }
 
@@ -212,13 +212,13 @@ aside h2 {
     color: #65696e;
 }
 
-.desc-hora{
+.desc-hora {
     display: flex;
     flex-flow: column nowrap;
 }
 
-@media screen and (max-width: 500px) { 
-    body{
+@media screen and (max-width: 500px) {
+    body {
         align-items: center;
     }
 
@@ -235,12 +235,12 @@ aside h2 {
         align-items: center;
         justify-content: center;
     }
-    
+
     .sobrenos div {
         padding-bottom: 15px;
         flex-direction: column;
     }
-    
+
     .sobrenos div img {
         max-width: 100%;
         max-height: auto;
@@ -254,19 +254,19 @@ aside h2 {
         padding-bottom: 20px;
         font-size: 18px;
     }
-    
+
     aside h2 {
         font-weight: 200;
         font-size: 25px;
     }
-    
+
     .professores {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
         justify-content: center;
     }
-    
+
     .cards {
         margin-left: 20px;
         margin-right: 20px;
@@ -280,8 +280,8 @@ aside h2 {
         object-fit: contain;
         padding: 3%;
         background-color: rgb(234, 231, 231);
-    }    
-    
+    }
+
     .cards .cards-content {
         align-self: center;
         display: flex;
@@ -290,7 +290,7 @@ aside h2 {
         height: 100px;
         margin-top: 25px;
     }
-    
+
     .cards-content h4 {
         font-family: 'Righteous', cursive;
         display: block;
@@ -300,13 +300,13 @@ aside h2 {
         border-bottom: 2px solid #352f3e;
         margin-bottom: 10%;
     }
-    
+
     .cards-content div {
         display: flex;
         align-items: normal;
         flex-flow: row nowrap;
     }
-    
+
     .cards-content span {
         padding: 2px 4px;
         font-weight: 300;
@@ -317,7 +317,7 @@ aside h2 {
     .cards:hover {
         box-shadow: 0 15px 20px 0 rgba(34, 34, 34, 0.9);
     }
-      
+
     .modalidades {
         display: flex;
         flex-flow: column nowrap;
@@ -327,7 +327,7 @@ aside h2 {
         margin: 10px;
         max-width: 500px;
     }
-    
+
     .modalidades img {
         width: 100%;
         height: auto;
@@ -336,7 +336,7 @@ aside h2 {
         margin-bottom: 3%;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
     }
-    
+
     .desc-modalidade {
         display: flex;
         flex-flow: column nowrap;
@@ -351,7 +351,7 @@ aside h2 {
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
         padding-bottom: 5%;
     }
-    
+
     .desc-modalidade h3 {
         padding-left: 35px;
         padding-top: 20px;
@@ -362,14 +362,14 @@ aside h2 {
         font-family: 'Sarala', sans-serif;
         font-weight: 200;
     }
-    
+
     .desc-modalidade .desc {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 10px;
         margin-bottom: 50px;
     }
-    
+
     .dias-semanas {
         display: flex;
         flex-flow: row wrap;
@@ -377,15 +377,15 @@ aside h2 {
         justify-content: center;
     }
 
-    .dias-semanas .dias-semanas-pc{
+    .dias-semanas .dias-semanas-pc {
         display: none;
     }
 
-    .dias-semanas .dias-semanas-mob{
+    .dias-semanas .dias-semanas-mob {
         display: flex;
         flex-flow: row nowrap;
     }
-    
+
     .dias-semanas span {
         display: flex;
         flex-flow: column nowrap;
