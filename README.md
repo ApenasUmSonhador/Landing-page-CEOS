@@ -18,8 +18,8 @@
 - **Google street view [DONE]** <br>
 
 ## Divisão das tarefas:
-- Arthur (Idealizador da página, Inicío, Quem Somos, Design do Site, Header)
-- Luis (Footer, Header/Nav, GPS, Perguntas Frequentes)
+- Arthur (Idealizador da página, Inicío, Quem Somos, Design do Site, Footer, Header/Nav)
+- Luis (GPS, Perguntas Frequentes)
 - Alberto (Footer, Responsividade, Quem Somos, Perguntas Frequentes)
 
 ## Organização das Pastas
